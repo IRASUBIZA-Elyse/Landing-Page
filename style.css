@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    
+   
+}
+.section-1{
+    background-color: #1f2937;
+    padding: 15px;
+
+}
+.section-1 .section-1A{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.Logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.heading-1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    
+}
+.this-website{
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.section-1B{
+    display: flex;
+    padding-top: 45px;
+      
+}
+.header-awesome{
+    flex: 1;
+    padding-left: 10px;
+
+}
+.btn-color{
+    background-color: #3882f6;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+img{
+    width: 400px;
+    height: 250px;
+    flex: 1;
+    padding-left: 5px;
+    
+}
+p{
+    padding-top: 10px;
+}
+
+/* section 2 */
+
+.container-1{
+    max-width: 800px;
+    margin: auto;
+}
+.heading-2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.section-2 .images{
+    display: flex;
+
+}
+.section-2 .images .images-1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+}
+
+.images-1,
+.images-2,
+.images-3,
+.images-4{
+   flex: 1;
+   display: block;
+   margin: auto;
+   
+}
+
+/* section 3 */
+
+.section-3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+.section-3 .quote{
+    padding: 40px;
+}
+.section-3 .name{
+    font-weight: 600;
+}
+/* #footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 8px;
+} */
