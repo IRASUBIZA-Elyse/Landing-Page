@@ -23,12 +23,15 @@
     font-size: 24px;
     color: #f9faf8;
 }
-.links ul{
+.links{
     display: flex;
+    flex-direction: row;
     gap: 15px;
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
+    justify-items: center;
+    padding-top: 5px;
     
 }
 .heading-1{
